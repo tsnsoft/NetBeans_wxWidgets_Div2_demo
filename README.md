@@ -35,3 +35,4 @@ void MainFrame::myClick(wxCommandEvent& event) {
     }
 }
 ```
+https://wiki.wxwidgets.org/Netbeans
