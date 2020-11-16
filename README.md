@@ -30,3 +30,8 @@ void MainFrame::myClick(wxCommandEvent& event) {
     }
 }
 ```
+
+```
+`wx-config --cxxflags`
+`wx-config --libs`
+```
