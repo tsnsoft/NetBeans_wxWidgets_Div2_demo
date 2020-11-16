@@ -11,6 +11,11 @@
 ![srcreenshot](screenshot3.png)
 
 ```
+`wx-config --cxxflags`
+`wx-config --libs`
+```
+
+```
 // ЭТО РЕАЛИЗАЦИЯ НАШЕГО МЕТОДА ОБРАБОТЧИКА СОБЫТИЯ НАЖАТИЯ НА КНОПКУ!
 void MainFrame::myClick(wxCommandEvent& event) {
     try {
@@ -29,9 +34,4 @@ void MainFrame::myClick(wxCommandEvent& event) {
         wxMessageBox(wxString::FromUTF8(e.what()) + wxT("! Исправьте !"));
     }
 }
-```
-
-```
-`wx-config --cxxflags`
-`wx-config --libs`
 ```
